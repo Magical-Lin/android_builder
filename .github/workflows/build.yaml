@@ -17,7 +17,7 @@ jobs:
       - name: specific Gradle version
         uses: gradle/gradle-build-action@v2
         with:
-          gradle-version: 7.0
+          gradle-version: 6.5
       
       - id: get-project
         name: Get project name
